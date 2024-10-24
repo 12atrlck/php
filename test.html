@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const region = [r14, 14, 'Aba', 'Kaduna', 'Calabar'];
+
+        // if(typeof(region[1]) === 'string'){
+        //     console.log('data type: string');
+        // } else if(typeof(region[1]) === 'number'){
+        //     console.log('data type: number');
+        // } else if(typeof(region[1]) === 'object'){
+        //     console.log('data type: object');
+        // } else {
+        //     console.log('not the data type we are expecting')
+        // }
+
+        switch(typeof(region[1])){
+            case 'string':
+                console.log('data type: string');
+                break;
+            case 'number':  
+                console.log('data type: string');
+                break; 
+            case 'object':  
+                console.log('data type: object');
+                break;       
+            default: 
+                console.log('data type: object')    
+        }
+    </script>
+</body>
+</html>
